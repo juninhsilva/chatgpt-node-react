@@ -1,5 +1,5 @@
 const express = require("express");
-const promptController = require("../../controllers/prompt-controller");
+const promptController = require("../controllers/prompt-controller")
 
 const routes = express.Router();
 

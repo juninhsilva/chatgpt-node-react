@@ -8,6 +8,6 @@ require("dotenv").config();
 
 app.use(express.json());
 app.use(cors());
-app.use(routes());
+app.use(routes);
 
 module.exports = app;
